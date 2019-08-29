@@ -1,0 +1,4 @@
+header link
+route index.js - component name, style name; style.css - style name
+Components/app.js import - Component name, path; router entry - Component name, path
+reload browser

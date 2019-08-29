@@ -1,0 +1,135 @@
+body {
+  font-family: -apple-system, BlinkMacSystemFont, "Roboto", sans-serif;
+  background-color: #f1f1f1;
+  margin: 0;
+}
+.container {
+  margin: 1rem;
+}
+.container .basket-container {
+  background-color: white;
+  padding: 1rem;
+  border-radius: 0.5rem;
+}
+.container .cart-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  outline: none;
+  position: relative;
+}
+.container .cart-button .button__image {
+  width: 2rem;
+}
+/*.container .cart-button .button__quantity {*/
+.button__quantity {
+    color: white;
+  width: 20px;
+  height: 20px;
+  position: relative;
+  left: 35px;
+  top: 1px;
+}
+.container .cart-container {
+  background-color: white;
+  padding: 1rem;
+}
+.container .cart-container .cart-item {
+  margin: 1rem;
+}
+.container .card-container .card {
+  background-color: white;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.container .card-container .card .card__image {
+  min-width: 200px;
+  min-height: 200px;
+  width: 100%;
+  border-radius: 0.5rem 0.5rem 0 0;
+}
+.container .card-container .card .card__description {
+  padding: 0 1rem 2rem 1rem;
+  text-align: center;
+}
+.container .card-container .card .card__description .description-price {
+  color: orange;
+}
+.container .card-container .card .card__description .item-name {
+  color: #333;
+  font-weight: 500;
+}
+.container .card-container .card .tesla-model-s {
+  background-image: url("https://www.tesla.com/tesla_theme/assets/img/models/v1.0/slideshow/Red_Bay-1440.jpg");
+  background-size: cover;
+}
+.container .card-container .card .tesla-model-x {
+  background-image: url("https://www.tesla.com/tesla_theme/assets/img/modelx/slideshow/White_Cruise-1440.jpg");
+  background-size: cover;
+}
+.container .card-container .card .porsche-mission-e {
+  background-image: url("https://porschenewsroom.s3.amazonaws.com/porsche_newsroom/produkte/sonstiges/studie/p15_0788_nrjpg/979c0f1f-dfa6-422a-9df8-0bcc33afa039_teaser_720x406x1_5.jpg");
+  background-size: cover;
+}
+.btn-primary,
+.btn-secondary {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.8rem;
+  font-weight: 500;
+  transition: all 0.3s linear;
+  text-transform: uppercase;
+  vertical-align: middle;
+  text-align: center;
+  cursor: pointer;
+  border: 0;
+  color: white;
+  padding: 12px 20px 10px;
+}
+.btn-primary {
+  background-color: #cc0000;
+}
+.btn-primary:hover {
+  background-color: #bf0000;
+}
+.btn-primary:focus {
+  outline: none;
+}
+.btn-secondary {
+  background-color: #333;
+}
+.btn-secondary:hover {
+  background-color: #2d2d2d;
+}
+.delete {
+  font-size: 1rem;
+  color: white;
+  background-color: #cc0000;
+  padding: 6px 10px 5px;
+  transition: all 0.3s linear;
+  cursor: pointer;
+}
+.delete:hover {
+  background-color: #bf0000;
+}
+.show {
+  display: inherit;
+  transition: all 0.3s linear;
+}
+.hide {
+  display: none;
+  height: 0px;
+}
+.grid {
+  width: 100%;
+  display: flex;
+}
+.col {
+  flex: 1;
+  margin: 1rem;
+}
+@media (max-width: 425px) {
+  .grid {
+    display: block;
+  }
+}
