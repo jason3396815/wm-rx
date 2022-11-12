@@ -29,6 +29,6 @@
     "preact-router": "^2.6.1",
     "socket.io": "^2.2.0",
     "stripe": "^6.31.1",
-    "webpack-cli": "^3.3.5"
+    "webpack-cli": "^3.3.12"
   }
 }
